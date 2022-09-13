@@ -13,5 +13,5 @@ tree.export_graphviz(model, out_file = 'music_recommender.dot',
                     feature_names = ['age', 'gender'],
                     class_names = sorted(y.unique()),
                     label = 'all',
-                    rounded = True,
-                    filled = True)
+                    rounded = True,      # rounded edges
+                    filled = True)       # tables filled with colors
